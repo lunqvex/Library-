@@ -1,7 +1,7 @@
 📌 NOTE: This script is modified into pink color!
 
 Local Library:
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/yourname/yourrepo/main/library.lua"))()
+```local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/yourname/yourrepo/main/library.lua"))()```
 
 Window:
 local window = library:CreateWindow("Your Title")
