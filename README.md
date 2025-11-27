@@ -9,5 +9,4 @@ GitHub ONLY recognizes:
 ## ⭐ Here is an example you can paste directly into your README to test:
 ````markdown
 ```lua
-print("Copy button test!")
-```
+print
