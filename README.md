@@ -1,5 +1,3 @@
-This script is modified into color blue 
-
 Local Library
 ---
 ```lua
@@ -134,8 +132,3 @@ Init Library (REQUIRED)
 ```lua
 library:Init()
 ```
----
-
-Credits
----
-LunqVex
