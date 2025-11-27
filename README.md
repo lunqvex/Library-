@@ -33,6 +33,8 @@ folder:AddButton({
     end
 })
 
+```
+
 ---
 
 Toggle
@@ -45,6 +47,7 @@ folder:AddToggle({
     end
 })
 
+```
 ---
 
 Label
@@ -53,7 +56,7 @@ Label
 folder:AddLabel({
     text = "This Is Sick!"
 })
-
+```
 ---
 
 Slider
@@ -67,7 +70,7 @@ folder:AddSlider({
         print(v)
     end
 })
-
+```
 ---
 
 Textbox
@@ -79,7 +82,7 @@ folder:AddBox({
         print(txt)
     end
 })
-
+```
 ---
 
 Color Picker
@@ -91,7 +94,7 @@ folder:AddColor({
         print(color)
     end
 })
-
+```
 ---
 
 Dropdown / List
@@ -104,7 +107,7 @@ folder:AddList({
         print("Selected:", value)
     end
 })
-
+```
 ---
 
 Keybind
@@ -117,20 +120,20 @@ folder:AddBind({
         print("Pressed!")
     end
 })
-
+```
 ---
 Close Library
 ---
 ```lua
 library:Close()
-
+```
 ---
 
 Init Library (REQUIRED)
 ---
 ```lua
 library:Init()
-
+```
 ---
 
 Credits
