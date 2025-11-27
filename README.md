@@ -1,28 +1,29 @@
-ðŸ“Œ NOTE  
-This script is modified into pink color!
-
----
+This script is modified into color blue 
 
 Local Library
 ---
+```lua
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/lunqvex/Library-/refs/heads/main/Latest"))()
 
 ---
 
 Window
 ---
+```lua
 local window = library:CreateWindow("Your Title")
 
 ---
 
 Folder
 ---
+```lua
 local folder = window:AddFolder("Folder")
 
 ---
 
 Button
 ---
+```lua
 folder:AddButton({
     text = "Click me",
     callback = function()
@@ -34,6 +35,7 @@ folder:AddButton({
 
 Toggle
 ---
+```lua
 folder:AddToggle({
     text = "Toggle",
     callback = function(v)
@@ -45,6 +47,7 @@ folder:AddToggle({
 
 Label
 ---
+```lua
 folder:AddLabel({
     text = "This Is Sick!"
 })
@@ -53,6 +56,7 @@ folder:AddLabel({
 
 Slider
 ---
+```lua
 folder:AddSlider({
     text = "Fov",
     min = 70,
@@ -66,6 +70,7 @@ folder:AddSlider({
 
 Textbox
 ---
+```lua
 folder:AddBox({
     text = "Enter Text",
     callback = function(txt)
@@ -77,6 +82,7 @@ folder:AddBox({
 
 Color Picker
 ---
+```lua
 folder:AddColor({
     text = "Color Picker",
     callback = function(color)
@@ -88,6 +94,7 @@ folder:AddColor({
 
 Dropdown / List
 ---
+```lua
 folder:AddList({
     text = "Color",
     values = {"Red", "Green", "Blue"},
@@ -100,6 +107,7 @@ folder:AddList({
 
 Keybind
 ---
+```lua
 folder:AddBind({
     text = "Bind",
     key = "X",
@@ -109,15 +117,16 @@ folder:AddBind({
 })
 
 ---
-
 Close Library
 ---
+```lua
 library:Close()
 
 ---
 
 Init Library (REQUIRED)
 ---
+```lua
 library:Init()
 
 ---
